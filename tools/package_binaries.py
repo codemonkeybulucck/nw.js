@@ -95,7 +95,7 @@ if getnwisrelease.release == 0:
 #
 # target example:
 # {
-#    'input'    : [ 'nw', 'nw.pak', ... ]
+#    'input'    : [ 'nw', 'AnyChat.pak', ... ]
 #    'output'   : 'nwjs-v0.9.2-linux-x64'
 #    'compress' : 'tar.gz'
 #    'folder'   : True   # Optional. More than 2 files will be put into a seprate folder
@@ -119,7 +119,7 @@ def generate_target_nw(platform_name, arch, version):
         target['input'] = [
                            'credits.html',
                            'libffmpegsumo.so',
-                           'nw.pak',
+                           'AnyChat.pak',
                            'nwjc',
                            'nw',
                            'icudtl.dat',
@@ -134,7 +134,7 @@ def generate_target_nw(platform_name, arch, version):
                            'libGLESv2.dll',
                            'pdf.dll',
                            'nw.exe',
-                           'nw.pak',
+                           'AnyChat.pak',
                            'locales',
                            'nwjc.exe',
                            'credits.html',
