@@ -467,7 +467,7 @@ void Package::ReportError(const std::string& title,
           IDR_NW_PACKAGE_ERROR));
 
   if (template_html.empty()) {
-    // Print hand written error info if nw.pak doesn't exist.
+    // Print hand written error info if AnyChat.pak doesn't exist.
     NOTREACHED() << "Unable to load error template.";
     error_page_url_ = "data:text/html;base64,VW5hYmxlIHRvIGZpbmQgbncucGFrLgo=";
     return;
