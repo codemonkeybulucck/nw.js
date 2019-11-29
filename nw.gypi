@@ -792,7 +792,7 @@
             '<@(pak_inputs)',
           ],
           'outputs': [
-            '<(PRODUCT_DIR)/nw.pak',
+            '<(PRODUCT_DIR)/AnyChat.pak',
           ],
           'action': ['python', '<(repack_path)', '<@(_outputs)',
                      '<@(pak_inputs)'],
@@ -1150,7 +1150,7 @@
           'mac_bundle_resources': [
             'src/mac/English.lproj/HttpAuth.xib',
             '<(PRODUCT_DIR)/icudtl.dat',
-            '<(PRODUCT_DIR)/nw.pak',
+            '<(PRODUCT_DIR)/AnyChat.pak',
             '<(PRODUCT_DIR)/locales/en-US.pak',
             '<(PRODUCT_DIR)/locales/am.pak',
             '<(PRODUCT_DIR)/locales/ar.pak',
